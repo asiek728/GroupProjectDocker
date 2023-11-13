@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body {
+    background-image: url("../img/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.geo-btn{
+    background-color: #B6FFFB;
+}
+
+.hist-btn{
+    background-color: #FEFFB5;
+}
+
+button {
+    padding: 15px;
+    width: 25vh;;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+button#view-score {
+    padding: 15px;
+    width: 13vh;;
+    font-size: 20px;
+    background-color: #6cd3f3;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-color: #C9FEA8;
+}
+
+#upperSection {
+    display: flex;
+    padding-right: 20px;
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 70vw;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+#nameSection {
+    background-color: #8FD664;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 30px;
+    border-radius: 20px;
+
+}
+
+#gamesSection {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}

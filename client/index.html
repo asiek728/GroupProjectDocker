@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./game.js"></script>
+    <script src="https://kit.fontawesome.com/232d2b9458.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./game.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+
+    <title>Home Page</title>
+</head>
+
+<body>
+    <div id="upperSection">
+        <a href="whiteboard.html">
+            <img src="./static/img/whiteboard.png" alt="whiteboard image">
+        </a>
+
+        <div class="container">
+            <button id="view-score" type="submit" class="btn" onclick="openPopup()">View Score</button>
+
+            <div class="popup" id="popup">
+                <i class="fa-solid fa-face-smile"></i>
+                <h2></h2>
+                <button type="button" onclick="closePopup()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="nameSection">
+        <h1>A.P.P G.A.M.E</h1>
+    </div>
+
+    <div id="gamesSection">
+
+        <!-- href need to be made -->
+        <a href="flag-match.html">
+            <button type="button" class="geo-btn" name="flag-match-btn">Flag Match</button>
+        </a>
+        <a href="neighbour.html">
+            <button type="button" class="geo-btn" name="neighbours-btn">Neighbours</button>
+        </a>
+        <a href="choose-photo.html">
+            <button type="button" class="geo-btn" name="country-outline-btn">Guess the country</button>
+        </a>
+        <a href="2truth-1lie.html">
+            <button type="button" class="hist-btn" name="2t1f-btn">2 Truths 1 Lie</button>
+        </a>
+        <a href="guess-date.html">
+            <button type="button" class="hist-btn" name="correct-date-btn">Correct Date</button>
+        </a>
+        <a href="hangman.html">
+            <button type="button" class="hist-btn" name="hang-man-btn">Hang Man</button>
+        </a>
+
+    </div>
+
+</body>
+
+</html>

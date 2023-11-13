@@ -1,0 +1,19 @@
+{
+  "name": "reddy_1_1_fe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "description": "",
+  "dependencies": {
+    "chance": "^1.1.11"
+  }
+}

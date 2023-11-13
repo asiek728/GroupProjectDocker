@@ -1,0 +1,89 @@
+body {
+    --hue: var(--hue-neutral);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+body.geography{
+    background-color: #B6FFFB;
+}
+
+body.history{
+    background-color: #FEFFB5;
+}
+
+:root {
+    --hue-neutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}
+
+.hide {
+    display: none;
+}
+
+.container{
+    width: 1000px;
+    max-width: 80%;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.geo{
+    background-color: #11A5D3;
+}
+
+.his{
+    background-color: #DDD057;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.btn:hover{
+    border-color: black;
+}
+
+.btn.correct{
+    --hue: var(--hue-correct);
+    border-width: medium;
+
+}
+
+.btn.wrong{
+    --hue: var(--hue-wrong);
+    border-width: medium;
+
+}
+
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.back-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+#question {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 35px;
+    font-size: 23px;
+    font-weight: bold;
+}

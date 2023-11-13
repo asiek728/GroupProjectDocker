@@ -1,0 +1,100 @@
+body {
+    background-color: #FEFFB5;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 12vh;
+    margin: 3vh;
+}
+#upperSection {
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    margin: 3vh;
+}
+#hangmanSection {
+    background-color: #DDD057;
+    width: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#wrongLettersSection {
+    background-color: #D0D311;
+    width: 85vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+#wrongLettersList {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#wordToGuessSection {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 13vh;
+    margin: 3vh;
+}
+
+.letterDiv {
+    background-color: #FCEE6F;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+    height: 6vh;
+    width: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+p {
+    font-size: 40px;
+}
+
+#userInputSection {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 10vh;
+    margin: 3vh;
+}
+
+#guessLetter {
+    width: 30px;
+    height: 40px;
+    font-size: 40px;
+    padding-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+#submitLetter, #back-btn {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #DDD057;
+}
+
+.newGameBtn {
+    width: 100px;
+    height: 60px;
+    background-color: #DDD057;
+    margin: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}

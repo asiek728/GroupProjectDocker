@@ -1,0 +1,58 @@
+body {
+    height: 95vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin-right: 200px;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(2, 370px);
+    grid-template-rows: repeat(4, 185px);
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    grid-gap: 20px;
+}
+
+.card {
+    background-color: #11A5D3;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    line-height: 185px;
+}
+
+img {
+    width: 370px;
+    height: 185px;
+}
+
+img:hover{
+    cursor: pointer;
+    transform: translate(-5%, 5%) ;
+}
+
+.country:hover{
+    cursor: pointer;
+    transform: translate(-5%, 5%) ;
+}
+
+.next-btn, .back-btn {
+    background-color: #83DFDA;
+    margin-bottom: 20px;
+    --hue: var(--hue-neutral);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    border-radius: 5px;
+    color: black;
+    outline: none;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 30px;
+}

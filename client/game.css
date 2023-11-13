@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.btn{
+    padding: 10px 60px;
+    border-radius: 10px;
+    background-color: #11A5D3;
+    border: 0;
+    outline-color: black;
+    outline-width: 2px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/*Change top to 0 to start, change scale to 0.1, and add visibility hidden
+Will use JS to change these values with animation
+*/
+
+.popup{
+    width: 400px;
+    background:#B6FFFB;
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #11A5D3;
+    visibility: hidden;
+    transition: transform 0.5s, top 0.5s;
+}
+
+
+/*Now change settings to what we want it to animate to 
+class name must be applied sing JS
+is underneath so it will overide popup properties above when it is activated upon click*/
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+
+}
+
+.popup i{
+    font-size: 130px;
+    margin-top: -40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, alpha);
+}
+
+.popup h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: #11A5D3;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, alpha);
+}
